@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import {useSelector,useDispatch } from 'react-redux';
 import {
   decrement,
   increment,
@@ -27,7 +27,7 @@ export function Counter() {
         <span className={styles.value}>{count}</span>
         <button
           className={styles.button}
-          aria-label="Decrement value"
+          aria-label="Decrement value"  
           onClick={() => dispatch(decrement())}
         >
           -
